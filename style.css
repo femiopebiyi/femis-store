@@ -146,6 +146,9 @@ input::placeholder{
     flex-direction: row;
     justify-content: space-evenly;
 }
+.header:last-child{
+    margin-right: 20%;
+}
 h5{
     margin-top: 35px;
     
