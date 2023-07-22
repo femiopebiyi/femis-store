@@ -8,12 +8,12 @@ body{
     font-family: 'Original Surfer', cursive;
 }
 h1{
-    text-align: left;
-    margin-left: 1rem;
+    text-align: center;
+    margin-left: 0;
     border: 3px solid #16161a;
     display: inline-block;
     border-radius: 8px;
-    padding: 5px;
+    padding: 2px;
     background-color:#7f5af0;
     margin-top: 1rem;
 }
@@ -127,9 +127,11 @@ textarea::placeholder{
 }
 .submit{
     background-color: #2cb67d;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: 'Montserrat Subrayada', sans-serif;
     transition: all 0.5s linear;
+    display: grid;
+    place-items: center;
 }
 .submit:hover{
     background-color: #7f5af0;
@@ -142,13 +144,14 @@ input::placeholder{
     place-items: center;
 }
 .header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
 }
-.header:last-child{
-    margin-right: 20%;
-}
+
 h5{
     margin-top: 35px;
     
